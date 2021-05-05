@@ -8,13 +8,15 @@ namespace MaximumNumberGenerics
 {
     class Program
     {
-        /// <summary>
-        /// Defines the entry point of the application.
-        /// </summary>
-        /// <param name="args">The arguments.</param>
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, Welcome to MaximumTest using Generics!");
+            Console.WriteLine("Welcome to the Maximum Number Program using Generics");
+            Console.WriteLine("Find max Number");
+            MaximumNumberCheck MaxInt = new MaximumNumberCheck();
+            int output = MaxInt.MaximumIntegerNumber(11, 22, 33);
+            Console.WriteLine(output);
+            float floatoutput = MaxInt.MaximumFloatNumber(111.2f, 22.45f, 78.56f);
+            Console.WriteLine(floatoutput);
         }
     }
 }
