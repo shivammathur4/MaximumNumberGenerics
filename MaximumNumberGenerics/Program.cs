@@ -17,6 +17,8 @@ namespace MaximumNumberGenerics
             Console.WriteLine(output);
             float floatoutput = MaxInt.MaximumFloatNumber(111.2f, 22.45f, 78.56f);
             Console.WriteLine(floatoutput);
+            string stringoutput = MaxInt.MaximumStringNumber("22", "33", "44");
+            Console.WriteLine(stringoutput);
         }
     }
 }
